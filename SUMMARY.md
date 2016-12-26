@@ -19,5 +19,5 @@
     
     
 # 文献收集
-* [JSR133](doc/jsr133.md) —— 内存模型与线程规范
-* [RFC2616](doc/rfc2616.md) —— HTTP/1.1
+* [JSR133译文](doc/jsr133.md) —— 内存模型与线程规范
+* [RFC2616译注](doc/rfc2616.md) —— HTTP/1.1
