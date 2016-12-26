@@ -1,5 +1,6 @@
+* [目录详情](SUMMARY.md)
+
 # 分类归档
-* [说明](README.md)
 * [代码大全](codecomplete/KeyContent.md)   ***** not only the book named 《CodeComplete》
     * [项目整体控制](codecomplete/s1.md) —— 生命周期/管理/组织
     * [项目内部设计](codecomplete/s2.md) —— 模块/插件/流程/包

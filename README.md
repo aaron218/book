@@ -4,6 +4,9 @@
 
 [另一个知识库](https://newstring.myqnapcloud.com:8081/dokuwiki/) (此知识库部署在个人服务器上，不保证实时的可用性，亦不保证内容的完整性，主要用于知识点的第一步收集以及备忘工作，并且有账户管理)
 
+
+# 备忘 
+以下内容均为个人的备忘，关于markdown与编辑，与book的实际内容无关
 ## 关于Gitbook的编辑
 **!!!不建议使用GitBookEditor!!!**
 
