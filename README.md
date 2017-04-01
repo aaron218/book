@@ -1,5 +1,5 @@
-# book
 <span id="jump"></span>
+# book
 本知识库是公开的知识整理和数据收集仓库，是与GitHub关联的GitBook.
 
 # 备忘
@@ -29,6 +29,13 @@ GitBook是可以通过WebHook来与Github进行同步的，因此，不仅可以
 ## 章节组织
 
 对于非书籍类型的gitbook\(如notebook类型\)。一般来说每一个文件代表了一个主题，主题内通过H1——H3的层级控制内容级别。Summary中第一级是一个领域，第二级是一个切面或者一个主题，第三级是一个基于第二级展开的主题，一般不需要第三级。
+
+使用
+   ```html
+    <span id="jump"></span>
+    和 [TOP](#jump) 以及 [回到首页](../README.md#jump)等方式实现页内和页间跳转
+   ```
+但是仅在gitbook上有效
 
 # markdown使用
 

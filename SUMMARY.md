@@ -1,5 +1,13 @@
 * [目录详情](SUMMARY.md)
 
+# 知识领域
+* [JAVA知识点](lang/javaBasic.md)
+* [Spark_Hadoop](cloud/Spark_Hadoop.md)
+* [Alluxio](cloud/Alluxio.md)
+* [SearchEngine](SE/all.md)
+    * [ElasticSearch](SE/ElastisSearch.md)
+    * [Lucene_Solr](SE/LuceneSlor.md)
+  
 # 分类归档
 * [代码大全](codecomplete/KeyContent.md)   ***** not only the book named 《CodeComplete》
     * [项目整体控制](codecomplete/s1.md) —— 生命周期/管理/组织
@@ -8,16 +16,7 @@
     * [算法型代码片](codecomplete/s4.md) —— S_ALG/Cloud/KDD
     * [业务型代码片](codecomplete/s5.md) —— shell/conf/opt
     * [实践项目分析](codecomplete/s6.md) —— bench/analysis
-* [UULP TLTP](Linux/linux.md)
-
-# 知识领域
-* [java基础](lang/javaBasic.md)
-* [Spark_Hadoop](cloud/Spark_Hadoop.md)
-* [Alluxio](cloud/Alluxio.md)
-* [SearchEngine](SE/all.md)
-    * [ElasticSearch](SE/ElastisSearch.md)
-    * [Lucene_Solr](SE/LuceneSlor.md)
-    
+* [UULP TLTP](Linux/linux.md)    
     
 # 文献收集
 * [JSR133译文](doc/jsr133.md) —— 内存模型与线程规范
