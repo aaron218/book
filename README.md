@@ -2,13 +2,11 @@
 
 本知识库是公开的知识整理和数据收集仓库，是与GitHub关联的GitBook.
 
-[另一个知识库](https://newstring.myqnapcloud.com:8081/dokuwiki/) \(此知识库部署在个人服务器上，不保证实时的可用性，亦不保证内容的完整性，主要用于知识点的第一步收集以及备忘工作，并且有账户管理\)
-
 # 备忘
 
 以下内容均为个人的备忘，关于markdown与编辑，与book的实际内容无关
 
-## 关于Gitbook的编辑
+## 关于Gitbook的编辑 备忘
 
 **!!!不建议使用GitBookEditor!!!**
 
@@ -43,12 +41,81 @@ GitBook是可以通过WebHook来与Github进行同步的，因此，不仅可以
 
 * java code
   ```java
-  public ServiceRequest setParam(Map<String, Object> param) {
-      this.param = param;
-      return this;
-  }
+    public class BubbleSort
+    {
+        public void sort(int[] a)
+        {
+            int temp = 0;
+            for (int i = a.length - 1; i > 0; --i)
+            {
+                for (int j = 0; j < i; ++j)
+                {
+                    if (a[j + 1] < a[j])
+                    {
+                        temp = a[j];
+                        a[j] = a[j + 1];
+                        a[j + 1] = temp;
+                    }
+                }
+            }
+        }
+    }
   ```
+  
+* C code
 
+``` java
+    #include <stdio.h>
+    #define SIZE 8
+    
+    void bubble_sort(int a[], int n);
+    void bubble_sort(int a[], int n)
+    {
+        int i, j, temp;
+        for (j = 0; j < n - 1; j++)
+            for (i = 0; i < n - 1 - j; i++)
+            {
+                if(a[i] > a[i + 1])
+                {
+                    temp = a[i];
+                    a[i] = a[i + 1];
+                    a[i + 1] = temp;
+                }
+            }
+    }
+```
+
+* javascript
+```javascript
+function bubbleSort(arr) {
+    var i = arr.length, j;
+    var tempExchangVal;
+    while (i > 0) {
+        for (j = 0; j < i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                tempExchangVal = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = tempExchangVal;
+            }
+        }
+        i--;
+    }
+    return arr;
+}
+```
+* python
+```python
+def bubble(bubbleList):
+    listLength = len(bubbleList)
+    while listLength > 0:
+        for i in range(listLength - 1):
+            if bubbleList[i] > bubbleList[i+1]:
+                bubbleList[i] = bubbleList[i] + bubbleList[i+1]
+                bubbleList[i+1] = bubbleList[i] - bubbleList[i+1]
+                bubbleList[i] = bubbleList[i] - bubbleList[i+1]
+        listLength -= 1
+    print bubbleList
+```
 ## Math
 
 
