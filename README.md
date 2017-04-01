@@ -1,5 +1,5 @@
 # book
-
+<span id="jump"></span>
 本知识库是公开的知识整理和数据收集仓库，是与GitHub关联的GitBook.
 
 # 备忘
@@ -65,6 +65,12 @@ GitBook是可以通过WebHook来与Github进行同步的，因此，不仅可以
 * C code
 
   ``` c
+    #include <stdio.h>
+    #define SIZE 8
+     
+    void bubble_sort(int a[], int n);
+     
+    void bubble_sort(int a[], int n)
     {
         int i, j, temp;
         for (j = 0; j < n - 1; j++)
@@ -98,6 +104,8 @@ GitBook是可以通过WebHook来与Github进行同步的，因此，不仅可以
         return arr;
     }
     ```
+    
+    
 * python
     ```python
     def bubble(bubbleList):
@@ -132,3 +140,4 @@ GitBook是可以通过WebHook来与Github进行同步的，因此，不仅可以
 
 
 
+[TOP](#jump)
