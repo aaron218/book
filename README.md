@@ -64,12 +64,7 @@ GitBook是可以通过WebHook来与Github进行同步的，因此，不仅可以
   
 * C code
 
-``` java
-    #include <stdio.h>
-    #define SIZE 8
-    
-    void bubble_sort(int a[], int n);
-    void bubble_sort(int a[], int n)
+  ``` c
     {
         int i, j, temp;
         for (j = 0; j < n - 1; j++)
@@ -83,39 +78,56 @@ GitBook是可以通过WebHook来与Github进行同步的，因此，不仅可以
                 }
             }
     }
-```
+  ```
 
 * javascript
-```javascript
-function bubbleSort(arr) {
-    var i = arr.length, j;
-    var tempExchangVal;
-    while (i > 0) {
-        for (j = 0; j < i - 1; j++) {
-            if (arr[j] > arr[j + 1]) {
-                tempExchangVal = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = tempExchangVal;
+    ```javascript
+    function bubbleSort(arr) {
+        var i = arr.length, j;
+        var tempExchangVal;
+        while (i > 0) {
+            for (j = 0; j < i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    tempExchangVal = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tempExchangVal;
+                }
+            }
+            i--;
+        }
+        return arr;
+    }
+    ```
+* python
+    ```python
+    def bubble(bubbleList):
+        listLength = len(bubbleList)
+        while listLength > 0:
+            for i in range(listLength - 1):
+                if bubbleList[i] > bubbleList[i+1]:
+                    bubbleList[i] = bubbleList[i] + bubbleList[i+1]
+                    bubbleList[i+1] = bubbleList[i] - bubbleList[i+1]
+                    bubbleList[i] = bubbleList[i] - bubbleList[i+1]
+            listLength -= 1
+        print bubbleList
+    ```
+* Golang    
+    ```go
+    package main  //main函数
+    import "fmt"  //相当于#include
+    func main() {
+        ar := [10]int{9, 8, 6, 4, 2, 7, 1, 3, 0, 5}
+        num := len(ar)      //:=自动匹配变量类型
+        for i := 0; i < num; i++ {       //花括号{必须在这一行 if也一样
+            for j := i + 1; j < num; j++ {
+                if ar[i] < ar[j] {
+                    ar[i], ar[j] = ar[j], ar[i] //相比某语言不需要临时交换变量
+                }
             }
         }
-        i--;
+        fmt.Println(ar)
     }
-    return arr;
-}
-```
-* python
-```python
-def bubble(bubbleList):
-    listLength = len(bubbleList)
-    while listLength > 0:
-        for i in range(listLength - 1):
-            if bubbleList[i] > bubbleList[i+1]:
-                bubbleList[i] = bubbleList[i] + bubbleList[i+1]
-                bubbleList[i+1] = bubbleList[i] - bubbleList[i+1]
-                bubbleList[i] = bubbleList[i] - bubbleList[i+1]
-        listLength -= 1
-    print bubbleList
-```
+    ```
 ## Math
 
 
