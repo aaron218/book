@@ -1,0 +1,51 @@
+#Java 关键字
+Java有50个关键字，各种关键字有不同的用途，有些相对简单，但是有些实际上暗含了整套复杂的逻辑。
+
+首先对关键字进行大致的分类
+  - 数据类型 用于划分数据的类型
+    - int
+    - long
+    - float
+    - double
+    - char
+    - short
+    - byte
+    - boolean
+    - void
+  - 代码标识 表示代码或者代码段具有的属性和特征
+    - class
+    - enum
+    - abstract
+    - static
+    - final
+    - private
+    - public
+    - protected
+    - synchronized
+    - volatile
+    - import
+    - package
+    - extends
+    - implements
+    - strictfp
+    - native
+    - transient
+    - this
+  - 代码控制 代码中的实际操作部分，一般会对应具体的业务行为
+    - super
+    - new 
+    - if
+    - else
+    - do
+    - while
+    - for
+    - switch
+    - case
+    - default
+    - continue
+    - break
+    - return
+    - try
+    - catch
+    - finally
+    - instanceof
