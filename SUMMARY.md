@@ -2,6 +2,16 @@
 
 # 知识领域
 * [JAVA知识点](lang/javaBasic.md)
+   * [基本类型与关键字](javaBasic/typeKeywords.md)
+   * [类加载](javaBasic/clazzLoader.md)
+   * [对象结构与方法](javaBasic/inObjects.md)
+   * [集合类](javaBasic/collections.md)
+   * [JVM基础](javaBasic/JVMStartup.md)
+   * [JVM内存模型](javaBasic/JVM_RAM.md)
+   * [JVM线程模型](javaBasic/JVM_Thread.md)
+   * [锁](javaBasic/locker.md)
+   * [GC基本概念](javaBasic/JVM_GC.md)
+   * [GC查看与调试](javaBasic/JVM_GC.md)
 * [Spark_Hadoop](cloud/Spark_Hadoop.md)
 * [Alluxio](cloud/Alluxio.md)
 * [SearchEngine](SE/all.md)
