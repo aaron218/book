@@ -11,7 +11,6 @@
  * [JVM基础](javaBasic/JVMStartup.md)
  * [JVM内存模型](javaBasic/JVM_RAM.md)
  * [GC基本概念](javaBasic/JVM_GC.md)
- * [GC查看与调试](javaBasic/JVM_GC.md)
 
 #线程
  * [JVM线程模型](javaBasic/JVM_Thread.md)
