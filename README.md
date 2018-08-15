@@ -1,13 +1,16 @@
 <span id="jump"></span>
 # book
 本知识库是公开的知识整理和数据收集仓库，是与GitHub关联的GitBook.
-更新的以及范围更广的内容 请移步: [AXON](https://newstring.myqnapcloud.com:8081/dokuwiki/doku.php 个人知识库，服务器不保证全天候可用)
-只有SUMMARY.md下声明的文件才会编译
+
+
+更新的以及范围更广的内容 保存在(受限访问环境): [AXON](https://newstring.myqnapcloud.com:8081/dokuwiki/doku.php 个人知识库，服务器不保证全天候可用)
+
 # 备忘
 以下内容均为个人的备忘，关于markdown与编辑，与book的实际内容无关
-测试测试测试~~~~~~~~~
 
 ## 关于Gitbook的编辑 备忘
+
+只有SUMMARY.md下声明的文件才会编译 二次引用的文件并不能直接编译，除非在SUMMARY中也申明一次
 
 **!!!不建议使用GitBookEditor!!!**
 
