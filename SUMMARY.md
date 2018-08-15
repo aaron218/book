@@ -33,5 +33,4 @@
 
 
 # 其他资源
-[](lang/javaBasic/JVM_RAM.md) 
-[](lang/javaBasic/JVMStartup.md)
+* [1](lang/javaBasic/JVM_RAM.md)[1](lang/javaBasic/JVMStartup.md)
