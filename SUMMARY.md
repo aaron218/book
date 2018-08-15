@@ -8,7 +8,6 @@
    * [集合类](lang/javaBasic/collections.md)
    * [锁](lang/javaBasic/locker.md)
    * [GC基本概念](lang/javaBasic/JVM_GC.md)
-   * [GC查看与调试](lang/javaBasic/JVM_GC.md)
 * [大数据综合](cloud/bigdata.md)
 * [Spark&Hadoop](cloud/Spark_Hadoop.md)
 * [Alluxio](cloud/Alluxio.md)
@@ -31,3 +30,8 @@
 # 文献收集
 * [JSR133译文](doc/jsr133.md) —— 内存模型与线程规范
 * [RFC2616译注](doc/rfc2616.md) —— HTTP/1.1
+
+
+# 其他资源
+[](lang/javaBasic/JVM_RAM.md) 
+[](lang/javaBasic/JVMStartup.md)
