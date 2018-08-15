@@ -3,49 +3,49 @@ Java有50个关键字，各种关键字有不同的用途，有些相对简单�
 
 首先对关键字进行大致的分类
   - 数据类型 用于划分数据的类型
-    - int
-    - long
-    - float
-    - double
-    - char
-    - short
-    - byte
-    - boolean
-    - void
+    - int    :32-bit; from -2147483648 to 2147483647, inclusive
+    - long   :64-bit;
+    - float  :32-bit; IEEE 754 floating-point numbers
+    - double :64-bit; IEEE 754 floating-point numbers
+    - char   :16-bit; from '\u0000' to '\uffff' inclusive,from 0 to 65535
+    - short  :16-bit; from -32768 to 32767, inclusive
+    - byte   : 8-bit;  from -128 to 127, inclusive
+    - boolean:JVM depends; exactly 'true' OR  'false'
+    - void   :只作为语法标记，无真实值
   - 代码标识 表示代码或者代码段具有的属性和特征
-    - class
-    - enum
-    - abstract
-    - static
-    - final
-    - private
-    - public
-    - protected
-    - synchronized
-    - volatile
-    - import
-    - package
-    - extends
-    - implements
-    - strictfp
-    - native
-    - transient
-    - this
+    - class     :类，同时也是类的基本属性
+    - enum      :枚举
+    - abstract  :抽象的
+    - static    :静态的
+    - final     :表示不可继承，不可改变等用途
+    - private   :私有的
+    - public    :公开的
+    - protected :保护的，仅包内可用，也是默认的范围
+    - synchronized:同步锁
+    - volatile  :可见性，访问时保证是当前值
+    - import    :导入对应的资源
+    - package   :从属包标记
+    - extends   :继承类或接口
+    - implements:实现接口
+    - strictfp  :精确浮点，用于method，但是影响method下所有浮点数
+    - native    :本地代码引用，用于method
+    - transient :非序列化
+    - this      :对自身的引用
   - 代码控制 代码中的实际操作部分，一般会对应具体的业务行为
-    - super
-    - new 
-    - if
-    - else
-    - do
-    - while
-    - for
-    - switch
-    - case
-    - default
-    - continue
-    - break
-    - return
-    - try
-    - catch
-    - finally
-    - instanceof
+    - super     :对父类引用
+    - new       :创建对象
+    - if        :选择分支，真值分支
+    - else      :选择分支，否定分支
+    - do        :循环分支，执行体(可以省略)
+    - while     :循环分支条件
+    - for       :循环分支条件
+    - switch    :多路选择分支入口，指定选择条件参数
+    - case      :多路选择分支，
+    - default   :多路选择默认分支，
+    - continue  :继续循环而忽略该循环后续语句
+    - break     :跳出循环或者选择
+    - return    :跳出方法返回结果
+    - try       :指定异常捕获范围
+    - catch     :指定异常处理逻辑
+    - finally   :指定必须处理逻辑
+    - instanceof:判断类型的等价性(父类、接口也有效，不是相等性)
