@@ -11,7 +11,7 @@ Java有50个关键字，各种关键字有不同的用途，有些相对简单�
     - short  :16-bit; from -32768 to 32767, inclusive
     - byte   : 8-bit;  from -128 to 127, inclusive
     - boolean:JVM depends; exactly 'true' OR  'false'
-    - void   :只作为语法标记，无真实值
+    - void   只作为语法标记，无真实值
   - 代码标识 表示代码或者代码段具有的属性和特征
     - class     :类，同时也是类的基本属性
     - enum      :枚举
